@@ -76,12 +76,36 @@
 
 
 
-  @media (min-width: 400px) {
+  @media (min-width: 100px) {
       .gaugrBackground {
         width: 90%;
         height: 300px;
         border-radius: 21px 21px 0px 0px;
         background-image: url(/gaugr2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .stckyBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/stcky2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .southwestBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/swSmall.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .piqIOSBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/piqIOSSmall.png);
         background-repeat: no-repeat;
         background-size: cover;
       }
@@ -93,6 +117,30 @@
         height: 300px;
         border-radius: 21px 21px 0px 0px;
         background-image: url(/gaugr3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .stckyBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/stcky1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .southwestBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/swLarge.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .piqIOSBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/piqIOSLarge.png);
         background-repeat: no-repeat;
         background-size: cover;
       }

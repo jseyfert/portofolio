@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import './product.css';
-// import { coffee } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope, faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faExternalLinkSquareAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faInstagram, faSpotify, faApple, faAndroid } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -19,27 +18,33 @@ function App() {
             <span style={{color: '#6c757d'}}>{' }'}</span>
           </h4>
           <br/>
-          <p className="lead">I work with React, React-Native, Node, Express, Firebase and SQL/NoSQL.<br/>Scroll down to see what I've been up to.</p>
+          <p className="lead">React, React-Native, Node, Express, Firebase, SQL/NoSQL.<br/>Scroll down to see what I've been up to.</p>
           {/* <p className="lead">Below are some of my projects built with<br/>React, React-Native, Node, Express, Firebase.</p> */}
           {/* <p className="lead">I specialize in React and React-Native in the front, Node and Firebase in the back.<br/>To see what i have been up to scroll down.</p> */}
           {/* <p className="lead">Full stack developer since 2016. My currecnt focus is React and React-Native :: Node and Firebase</p> */}
           <br/>
           <br/>
           <div>
-            <a href="https://github.com/jseyfert" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+            <a href="https://github.com/jseyfert" target="_blank" rel="noopener noreferrer" style={{marginRight: '25px', color: '#6c757d'}}>
               <FontAwesomeIcon icon={faGithub} size="2x"/>
             </a>
-            <a href="https://www.linkedin.com/in/johnseyfert/" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+            <a href="https://www.linkedin.com/in/johnseyfert/" target="_blank" rel="noopener noreferrer" style={{marginRight: '25px', color: '#6c757d'}}>
               <FontAwesomeIcon icon={faLinkedin} size="2x"/>
             </a>
-            <a href="https://www.instagram.com/johnny.montana/" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+            <a href="https://www.instagram.com/johnny.montana/" target="_blank" rel="noopener noreferrer" style={{marginRight: '25px', color: '#6c757d'}}>
             <FontAwesomeIcon icon={faInstagram} size="2x"/>
             </a>
-            <a href="https://open.spotify.com/user/1232230335?si=nmj9HnOZRRaTkYeRdvleAg" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+            <a href="https://open.spotify.com/user/1232230335?si=nmj9HnOZRRaTkYeRdvleAg" target="_blank" rel="noopener noreferrer" style={{marginRight: '25px', color: '#6c757d'}}>
               <FontAwesomeIcon icon={faSpotify} size="2x"/>
             </a>
-            <a href="mailto:johnseyfert@gmail.com" target="_blank" rel="noopener noreferrer" style={{color: '#6c757d'}}>
+            <a href="mailto:johnseyfert@gmail.com" target="_blank" rel="noopener noreferrer" style={{marginRight: '25px',color: '#6c757d'}}>
               <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+            </a>
+            {/* <a href="tel:+1-406-262-3266" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px',color: '#6c757d'}}>
+              <FontAwesomeIcon icon={faPhoneSquare} size="2x"/>
+            </a> */}
+            <a href="tel:+1-406-262-3266" style={{color: '#6c757d'}}>
+              <FontAwesomeIcon icon={faPhone} size="2x"/>
             </a>
           </div>
         </div>
@@ -53,16 +58,16 @@ function App() {
 
         <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div className="my-3 py-3">
-            <h2 className="display-5">Easy Alfred</h2>
-            <p className="lead">Designed and built a premium concierge web app with React and Firebase....... ect asdf sadf asdf</p>
+            <h2 className="display-5">EASY ALFRED</h2>
+            <p className="lead">Designed and built a premium concierge web app with a React frontend and a Firebase backend.</p>
             <div>
-              <a href="https://app.easyalfred.com/" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+              <a href="https://app.easyalfred.com/" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
                 <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x"/>
               </a>
-              <a href="https://github.com/jseyfert/easyAlfred" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+              <a href="https://github.com/jseyfert/easyAlfred" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
                 <FontAwesomeIcon icon={faGithub} size="2x"/>
               </a>
-              {/* <a href="https://github.com/jseyfert/fuse-react" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+              {/* <a href="https://github.com/jseyfert/fuse-react" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
                 <FontAwesomeIcon icon={faInfoCircle} size="2x"/>
               </a> */}
             </div>
@@ -82,8 +87,8 @@ function App() {
 
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 p-3">
-            <h2 className="display-5">Gaugr</h2>
-            <p className="lead">Regularly contract for this music intelligence app built with React-Naive and Firebase, fixing bugs and extending features.</p>
+            <h2 className="display-5">GAUGR</h2>
+            <p className="lead">This is a multi platform music intelligence phone app I regularly contract for. It is built in React-Naive with a Firebase backend.</p>
             <div>
               <a href="https://gaugr.com/" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
                 <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x"/>
@@ -102,54 +107,87 @@ function App() {
       </div>
 
       <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 p-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
+            <h2 className="display-5">SOUTWEST CHECKIN</h2>
+            <p className="lead">This is a fun side project I built for friends and family to automatically check them in for a Southwest flight.</p>
+            <div>
+            <div className="btn-group btn-group-sm" role="group" aria-label="Basic example">
+              <a href="https://github.com/jseyfert/southwest-checkin" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary" role="button">Github Frontend</a>
+              <a href="https://github.com/jseyfert/southwest-check-in-server" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary" role="button">Github Backend</a>
+            </div>
+            {/* <button type="button" className="btn btn-primary">Front<FontAwesomeIcon icon={faGithub} size="2x"/></button>
+            <button type="button" className="btn btn-primary" aria-label="Left Align">
+              <FontAwesomeIcon icon={faGithub} size="2x"/>test1
+            </button>
+              <button className="btn"><FontAwesomeIcon icon={faGithub} size="2x"/>test</button>
+              <a href="https://github.com/jseyfert/southwest-checkin" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px'}}>
+                front <FontAwesomeIcon icon={faGithub} size="2x"/>
+              </a>
+              <a href="https://github.com/jseyfert/southwest-check-in-server" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px'}}>
+                <FontAwesomeIcon icon={faGithub} size="2x"/>
+              </a> */}
+            </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div>
+          <div className="bg-dark shadow-sm mx-auto southwestBackground"></div>
         </div>
+        
         <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div className="my-3 py-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
+            <h2 className="display-5">PRICING IQ</h2>
+            <p className="lead">Pricing intelligence dashboard - I work on the React frontend of this dash and build data aggregation spiders in python for the backend.</p>
+            <div>
+              <a href="https://app.pricingiq.io/" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
+                <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x"/>
+              </a>
+            </div>
           </div>
-          <div className="bg-light shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div>
+          {/* <div className="bg-light shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div> */}
+          <div 
+          className="bg-light shadow-sm mx-auto" 
+          style={{
+            width: "90%", 
+            height: '300px', 
+            borderRadius: '21px 21px 0 0',
+            backgroundImage: 'url(/piq.png)',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+          }}
+          ></div>
         </div>
+
       </div>
 
       <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div className="my-3 p-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
+            <h2 className="display-5">STCKY</h2>
+            <p className="lead">iPhone app built in React-Native that helps you select the correct glue</p>
+            <div>
+              <a href="https://github.com/jseyfert/STCKY" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
+                <FontAwesomeIcon icon={faGithub} size="2x"/>
+              </a>
+            </div>
           </div>
-          <div className="bg-white shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div>
+          <div className="bg-dark shadow-sm mx-auto stckyBackground"></div>
         </div>
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 py-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
-          </div>
-          <div className="bg-white shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div>
-        </div>
-      </div>
+        
 
-      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 p-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
-          </div>
-          <div className="bg-white shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div>
-        </div>
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        {/* <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"> */}
           <div className="my-3 py-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
+            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
+            <p className="lead">Amazon price tracking app built in React-Native and Firebase</p>
+            <div>
+              <a href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
+                <FontAwesomeIcon icon={faGithub} size="2x"/>
+              </a>
+            </div>
           </div>
-          <div className="bg-white shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div>
+          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
         </div>
+
       </div>
 
       <footer className="container py-5">
