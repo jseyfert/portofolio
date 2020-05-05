@@ -19,9 +19,6 @@ function App() {
           </h4>
           <br/>
           <p className="lead">React, React-Native, Node, Express, Firebase, SQL/NoSQL.<br/>Scroll down to see what I've been up to.</p>
-          {/* <p className="lead">Below are some of my projects built with<br/>React, React-Native, Node, Express, Firebase.</p> */}
-          {/* <p className="lead">I specialize in React and React-Native in the front, Node and Firebase in the back.<br/>To see what i have been up to scroll down.</p> */}
-          {/* <p className="lead">Full stack developer since 2016. My currecnt focus is React and React-Native :: Node and Firebase</p> */}
           <br/>
           <br/>
           <div>
@@ -40,15 +37,11 @@ function App() {
             <a href="mailto:johnseyfert@gmail.com" target="_blank" rel="noopener noreferrer" style={{marginRight: '25px',color: '#6c757d'}}>
               <FontAwesomeIcon icon={faEnvelope} size="2x"/>
             </a>
-            {/* <a href="tel:+1-406-262-3266" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px',color: '#6c757d'}}>
-              <FontAwesomeIcon icon={faPhoneSquare} size="2x"/>
-            </a> */}
             <a href="tel:+1-406-262-3266" style={{color: '#6c757d'}}>
               <FontAwesomeIcon icon={faPhone} size="2x"/>
             </a>
           </div>
         </div>
-        
 
         <div className="product-device shadow-sm d-none d-md-block"></div>
         <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -67,9 +60,6 @@ function App() {
               <a href="https://github.com/jseyfert/easyAlfred" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
                 <FontAwesomeIcon icon={faGithub} size="2x"/>
               </a>
-              {/* <a href="https://github.com/jseyfert/fuse-react" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
-                <FontAwesomeIcon icon={faInfoCircle} size="2x"/>
-              </a> */}
             </div>
           </div>
           <div 
@@ -78,7 +68,7 @@ function App() {
             width: "90%", 
             height: '300px', 
             borderRadius: '21px 21px 0 0',
-            backgroundImage: 'url(/easyAlfred1.png)',
+            backgroundImage: 'url(/easyAlfred1new.jpg)',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
           }}
@@ -108,29 +98,17 @@ function App() {
 
       <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
 
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 p-3">
-            <h2 className="display-5">SOUTWEST CHECKIN</h2>
-            <p className="lead">This is a fun side project I built for friends and family to automatically check them in for a Southwest flight.</p>
+      <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div className="my-3 py-3">
+            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
+            <p className="lead">Amazon price tracking app built in React-Native and Firebase</p>
             <div>
-            <div className="btn-group btn-group-sm" role="group" aria-label="Basic example">
-              <a href="https://github.com/jseyfert/southwest-checkin" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary" role="button">Github Frontend</a>
-              <a href="https://github.com/jseyfert/southwest-check-in-server" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary" role="button">Github Backend</a>
-            </div>
-            {/* <button type="button" className="btn btn-primary">Front<FontAwesomeIcon icon={faGithub} size="2x"/></button>
-            <button type="button" className="btn btn-primary" aria-label="Left Align">
-              <FontAwesomeIcon icon={faGithub} size="2x"/>test1
-            </button>
-              <button className="btn"><FontAwesomeIcon icon={faGithub} size="2x"/>test</button>
-              <a href="https://github.com/jseyfert/southwest-checkin" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px'}}>
-                front <FontAwesomeIcon icon={faGithub} size="2x"/>
-              </a>
-              <a href="https://github.com/jseyfert/southwest-check-in-server" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px'}}>
+              <a href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
                 <FontAwesomeIcon icon={faGithub} size="2x"/>
-              </a> */}
+              </a>
             </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto southwestBackground"></div>
+          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
         </div>
         
         <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
@@ -143,7 +121,6 @@ function App() {
               </a>
             </div>
           </div>
-          {/* <div className="bg-light shadow-sm mx-auto" style={{width: "90%", height: '300px', borderRadius: '21px 21px 0 0'}}></div> */}
           <div 
           className="bg-light shadow-sm mx-auto" 
           style={{
@@ -173,19 +150,18 @@ function App() {
           <div className="bg-dark shadow-sm mx-auto stckyBackground"></div>
         </div>
         
-
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        {/* <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"> */}
-          <div className="my-3 py-3">
-            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
-            <p className="lead">Amazon price tracking app built in React-Native and Firebase</p>
+          <div className="my-3 p-3">
+            <h2 className="display-5">SOUTHWEST CHECKIN</h2>
+            <p className="lead">This is a project I built for friends and family to automatically check them in for a Southwest flight. It has a Node/Express backend and a React frontend.</p>
             <div>
-              <a href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
-                <FontAwesomeIcon icon={faGithub} size="2x"/>
-              </a>
+            <div className="btn-group btn-group-sm" role="group" aria-label="Basic example">
+              <a href="https://github.com/jseyfert/southwest-checkin" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary" role="button">Github Frontend</a>
+              <a href="https://github.com/jseyfert/southwest-check-in-server" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary" role="button">Github Backend</a>
+            </div>
             </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
+          <div className="bg-dark shadow-sm mx-auto southwestBackground"></div>
         </div>
 
       </div>
