@@ -109,6 +109,14 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+      .pacificScreeningBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/pacificScreening1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
   }
 
   @media (min-width: 600px) {
@@ -141,6 +149,14 @@
         height: 300px;
         border-radius: 21px 21px 0px 0px;
         background-image: url(/piqIOSLarge.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .pacificScreeningBackground {
+        width: 90%;
+        height: 300px;
+        border-radius: 21px 21px 0px 0px;
+        background-image: url(/pacificScreening1.png);
         background-repeat: no-repeat;
         background-size: cover;
       }

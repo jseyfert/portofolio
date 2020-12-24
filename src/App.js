@@ -18,7 +18,7 @@ function App() {
             <span style={{color: '#6c757d'}}>{' }'}</span>
           </h4>
           <br/>
-          <p className="lead">React, React-Native, Node, Express, Firebase, SQL/NoSQL.<br/>Scroll down to see what I've been up to.</p>
+          <p className="lead">React, React-Native, Vue, Laravel, Node/Express, Firebase<br/>Scroll down to see what I've been up to.</p>
           <br/>
           <br/>
           <div>
@@ -100,15 +100,15 @@ function App() {
 
       <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 py-3">
-            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
-            <p className="lead">Amazon price tracking app built in React-Native and Firebase</p>
+            <h2 className="display-5">PACIFIC SCREENING</h2>
+            <p className="lead">Helped client build a communication portal with a Vue frontend and a Laravel backend.</p>
             <div>
-              <a href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#6c757d'}}>
-                <FontAwesomeIcon icon={faGithub} size="2x"/>
+              <a href="https://pacificscreening.com/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '33px', color: '#6c757d' }}>
+                <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" />
               </a>
             </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
+          <div className="bg-dark shadow-sm mx-auto pacificScreeningBackground"></div>
         </div>
         
         <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
@@ -140,7 +140,7 @@ function App() {
         <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div className="my-3 p-3">
             <h2 className="display-5">STCKY</h2>
-            <p className="lead">iPhone app built in React-Native that helps you select the correct glue</p>
+            <p className="lead">iPhone app built in React-Native that helps you select the correct glue depending on the substrate.</p>
             <div>
               <a href="https://github.com/jseyfert/STCKY" target="_blank" rel="noopener noreferrer" style={{marginRight: '33px', color: '#fff'}}>
                 <FontAwesomeIcon icon={faGithub} size="2x"/>
@@ -149,6 +149,26 @@ function App() {
           </div>
           <div className="bg-dark shadow-sm mx-auto stckyBackground"></div>
         </div>
+        
+        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div className="my-3 py-3">
+            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
+            <p className="lead">Amazon price tracking app built in React-Native and Firebase. This app used oAuth and pushNotifications.</p>
+            <div>
+              <a href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP" target="_blank" rel="noopener noreferrer" style={{ marginRight: '33px', color: '#6c757d' }}>
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+            </div>
+          </div>
+          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
+        </div>
+
+
+      </div>
+
+      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        
+  
         
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 p-3">
@@ -163,6 +183,11 @@ function App() {
           </div>
           <div className="bg-dark shadow-sm mx-auto southwestBackground"></div>
         </div>
+
+
+        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        </div>
+
 
       </div>
 
