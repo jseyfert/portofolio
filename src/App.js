@@ -39,7 +39,7 @@ function App() {
             <hr style={{ width: "40%" }} />
             React, React-Native, Vue, Node, Laravel, Firebase, AWS, Azure
             <hr style={{ width: "40%" }} />
-            Scroll down to see what I've been up to.
+            Scroll down to see what I've been up to
           </p>
           <br />
           <br />
