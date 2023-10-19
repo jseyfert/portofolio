@@ -29,13 +29,16 @@ function App() {
           <h1 className="display-4 font-weight-normal">John Seyfert</h1>
           <h4 className="display-5">
             <span style={{ color: "#6c757d" }}>{"{ "}</span>
-            Full Stack Developer
+            Software Developer
             <span style={{ color: "#6c757d" }}>{" }"}</span>
           </h4>
           <br />
+          <br />
           <p className="lead">
-            React, React-Native, Node/Express, Vue, Laravel, Firebase, AWS
-            <br />
+            JavaScript, TypeScript, Python, C#, PHP, SQL
+            <hr style={{ width: "40%" }} />
+            React, React-Native, Vue, Node, Laravel, Firebase, AWS, Azure
+            <hr style={{ width: "40%" }} />
             Scroll down to see what I've been up to.
           </p>
           <br />
@@ -374,8 +377,7 @@ function App() {
             <h2 className="display-5">SOUTHWEST CHECKIN</h2>
             <p className="lead">
               This is a project I built for friends and family to automatically
-              check them in for a Southwest flight. It has a Node/Express
-              backend and a React frontend.
+              check them in for a Southwest flight. Built with React & Node
             </p>
             <div>
               <div
