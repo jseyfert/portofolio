@@ -29,13 +29,13 @@ function App() {
           <h1 className="display-4 font-weight-normal">John Seyfert</h1>
           <h4 className="display-5">
             <span style={{ color: "#6c757d" }}>{"{ "}</span>
-            Software Developer
+            Software Engineer
             <span style={{ color: "#6c757d" }}>{" }"}</span>
           </h4>
           <br />
           <br />
           <p className="lead">
-            JavaScript, TypeScript, Python, C#, PHP, SQL
+            JavaScript, TypeScript, Python, PHP, C#
             <hr style={{ width: "40%" }} />
             React, React-Native, Vue, Node, Laravel, Firebase, AWS, Azure
             <hr style={{ width: "40%" }} />
