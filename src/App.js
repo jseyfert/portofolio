@@ -61,14 +61,6 @@ function App() {
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a
-              href="https://open.spotify.com/user/1232230335?si=nmj9HnOZRRaTkYeRdvleAg"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ marginRight: "25px", color: "#6c757d" }}
-            >
-              <FontAwesomeIcon icon={faSpotify} size="2x" />
-            </a>
-            <a
               href="mailto:johnseyfert@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,8 +68,13 @@ function App() {
             >
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
             </a>
-            <a href="tel:+1-406-262-3266" style={{ color: "#6c757d" }}>
-              <FontAwesomeIcon icon={faPhone} size="2x" />
+            <a
+              href="https://open.spotify.com/user/1232230335?si=nmj9HnOZRRaTkYeRdvleAg"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ marginRight: "25px", color: "#6c757d" }}
+            >
+              <FontAwesomeIcon icon={faSpotify} size="2x" />
             </a>
           </div>
         </div>
