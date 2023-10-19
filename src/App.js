@@ -89,8 +89,9 @@ function App() {
             <h2 className="display-5">SIEMENS</h2>
             <p className="lead">
               Support development of new and existing web applications for the
-              Siemens Training Division. Technologies: Typescript, React, Node,
-              AWS
+              Siemens Training Division.
+              <br />
+              Technologies: Typescript, React, Node, AWS
             </p>
             <div>
               <a
@@ -115,16 +116,17 @@ function App() {
             }}
           ></div>
         </div>
+
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 py-3">
-            <h2 className="display-5">PACIFIC SCREENING</h2>
+            <h2 className="display-5">GEICO</h2>
             <p className="lead">
-              Helped client build a mobile-friendly communication portal in the
-              Laravel and Vue frameworks for an applicant screening platform.
+              Contribute to the rebuild of GEICO's IVR system in AWS, utilizing
+              technologies such as C#, JavaScript, AWS, and Azure.
             </p>
             <div>
               <a
-                href="https://pacificscreening.com/"
+                href="https://www.geico.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "33px", color: "#6c757d" }}
@@ -133,7 +135,16 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto pacificScreeningBackground"></div>
+          <div
+            className="bg-light shadow-sm mx-auto"
+            style={{
+              height: "300px",
+              borderRadius: "21px 21px 0 0",
+              backgroundImage: "url(/geico2.jpeg)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          ></div>
         </div>
       </div>
 
@@ -169,41 +180,26 @@ function App() {
             }}
           ></div>
         </div>
+
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 p-3">
-            <h2 className="display-5">GAUGR</h2>
+          <div className="my-3 py-3">
+            <h2 className="display-5">PACIFIC SCREENING</h2>
             <p className="lead">
-              Built out new features for a multi platform music intelligence
-              phone app built with React-Native and Firebase.
+              Helped client build a mobile-friendly communication portal in the
+              Laravel and Vue frameworks for an applicant screening platform.
             </p>
             <div>
               <a
-                href="https://gaugr.com/"
+                href="https://pacificscreening.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "33px", color: "#6c757d" }}
               >
                 <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" />
               </a>
-              <a
-                href="https://apps.apple.com/us/app/gaugr/id1323225732"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ marginRight: "33px", color: "#6c757d" }}
-              >
-                <FontAwesomeIcon icon={faApple} size="2x" />
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.gaugr&hl=en_US"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ marginRight: "33px", color: "#6c757d" }}
-              >
-                <FontAwesomeIcon icon={faAndroid} size="2x" />
-              </a>
             </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto gaugrBackground"></div>
+          <div className="bg-dark shadow-sm mx-auto pacificScreeningBackground"></div>
         </div>
       </div>
 
@@ -251,25 +247,40 @@ function App() {
         </div>
 
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 py-3">
-            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
+          <div className="my-3 p-3">
+            <h2 className="display-5">GAUGR</h2>
             <p className="lead">
-              Built an Amazon price tracking app with React-Native and Firebase.
-              This app uses oAuth and pushNotifications.
+              Built out new features for a multi platform music intelligence
+              phone app built with React-Native and Firebase.
             </p>
-            <br />
             <div>
               <a
-                href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP"
+                href="https://gaugr.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "33px", color: "#6c757d" }}
               >
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+                <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" />
+              </a>
+              <a
+                href="https://apps.apple.com/us/app/gaugr/id1323225732"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginRight: "33px", color: "#6c757d" }}
+              >
+                <FontAwesomeIcon icon={faApple} size="2x" />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.gaugr&hl=en_US"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginRight: "33px", color: "#6c757d" }}
+              >
+                <FontAwesomeIcon icon={faAndroid} size="2x" />
               </a>
             </div>
           </div>
-          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
+          <div className="bg-dark shadow-sm mx-auto gaugrBackground"></div>
         </div>
       </div>
 
@@ -314,6 +325,51 @@ function App() {
         </div>
 
         <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div className="my-3 py-3">
+            <h2 className="display-5">PRICING IQ IPHONE APP</h2>
+            <p className="lead">
+              Built an Amazon price tracking app with React-Native and Firebase.
+              This app uses oAuth and pushNotifications.
+            </p>
+            <br />
+            <div>
+              <a
+                href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginRight: "33px", color: "#6c757d" }}
+              >
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+            </div>
+          </div>
+          <div className="bg-dark shadow-sm mx-auto piqIOSBackground"></div>
+        </div>
+      </div>
+
+      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+          <div className="my-3 p-3">
+            <h2 className="display-5">STCKY</h2>
+            <p className="lead">
+              Built iPhone app for client in React-Native that helps you select
+              the correct glue depending on the substrate.
+            </p>
+            <div>
+              <a
+                href="https://github.com/jseyfert/STCKY"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginRight: "33px", color: "#fff" }}
+              >
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+            </div>
+          </div>
+          <div className="bg-dark shadow-sm mx-auto stckyBackground"></div>
+        </div>
+
+        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 p-3">
             <h2 className="display-5">SOUTHWEST CHECKIN</h2>
             <p className="lead">
@@ -350,30 +406,6 @@ function App() {
           </div>
           <div className="bg-dark shadow-sm mx-auto southwestBackground"></div>
         </div>
-      </div>
-
-      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-          <div className="my-3 p-3">
-            <h2 className="display-5">STCKY</h2>
-            <p className="lead">
-              Built iPhone app for client in React-Native that helps you select
-              the correct glue depending on the substrate.
-            </p>
-            <div>
-              <a
-                href="https://github.com/jseyfert/STCKY"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ marginRight: "33px", color: "#fff" }}
-              >
-                <FontAwesomeIcon icon={faGithub} size="2x" />
-              </a>
-            </div>
-          </div>
-          <div className="bg-dark shadow-sm mx-auto stckyBackground"></div>
-        </div>
-        <div className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"></div>
       </div>
 
       <footer className="container py-5">
