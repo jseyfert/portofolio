@@ -89,9 +89,8 @@ function App() {
             <h2 className="display-5">SIEMENS</h2>
             <p className="lead">
               Support development of new and existing web applications for the
-              Siemens Training Division.
-              <br />
-              Technologies: Typescript, React, Node, AWS
+              Siemens Training Division. Technologies: Typescript, React, Node,
+              AWS
             </p>
             <div>
               <a
@@ -143,6 +142,7 @@ function App() {
               backgroundImage: "url(/geico2.jpeg)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
+              backgroundPositionX: "center",
             }}
           ></div>
         </div>
@@ -232,7 +232,6 @@ function App() {
               </a>
             </div>
           </div>
-          {/* <div className="bg-dark shadow-sm mx-auto stckyBackground"></div> */}
           <div
             className="bg-light shadow-sm mx-auto"
             style={{
@@ -253,6 +252,7 @@ function App() {
               Built out new features for a multi platform music intelligence
               phone app built with React-Native and Firebase.
             </p>
+            <br />
             <div>
               <a
                 href="https://gaugr.com/"
@@ -331,7 +331,6 @@ function App() {
               Built an Amazon price tracking app with React-Native and Firebase.
               This app uses oAuth and pushNotifications.
             </p>
-            <br />
             <div>
               <a
                 href="https://github.com/jseyfert/PRICING-IQ-IPHONE-APP"
@@ -354,6 +353,7 @@ function App() {
             <p className="lead">
               Built iPhone app for client in React-Native that helps you select
               the correct glue depending on the substrate.
+              {/* <br /> */}
             </p>
             <div>
               <a
